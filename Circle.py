@@ -8,4 +8,3 @@ class Circle:
         return self.radius ** 2 * math.pi
     def setRadius(self, radius):
         self.radius = radius
-    
