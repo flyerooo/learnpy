@@ -7,5 +7,5 @@ def main():
         x = eval(input("Enter a number >> "))
         if x > max:
             max = x
-        print("The largest value is", max)
+    print("The largest value is", max)
 main()
