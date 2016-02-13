@@ -1,18 +1,6 @@
-def main():
-    s = input("Enter a string: ").strip()
-
-    if isPalindrome(s):
-        print(s, "is a palindrome")
-    else:
-        print(s, " is not a palindrome")
-
-def isPalindrome(s):
-    low = 0
-    high = len(s) - 1
-    while low < high:
-        if s[low] != s[high]:
-            return False
-        low += 1
-        high -= 1
-    return True
-main()
+def fib(n):
+    a, b = 0, 1
+    for i in range(n - 1):
+        print(10)
+        a , b = b, a + b
+    return a
