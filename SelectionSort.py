@@ -1,5 +1,5 @@
 def selectionSort(lst):
-    for i in range(len(lst)-1):
+    for i in range(len(lst) - 1):
         currentMin = lst[i]
         currentMinIndex = i
         for j in range(i + 1, len(lst)):
